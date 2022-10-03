@@ -1,3 +1,7 @@
+import '../styles/components/maincontent.sass'
+
 export const MainContent = () => {
-  return
+  return (
+    <main id="main_content" ></main>
+  )
 }
