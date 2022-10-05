@@ -1,6 +1,8 @@
 import Avatar from '../img/Photo_1.png'
 import { Link } from 'react-router-dom'
 
+import {SiJavascript, SiReact, SiSass } from 'react-icons/si'
+
 import '../styles/components/sidebar.sass'
 
 import { SocialNetworks } from './SocialNetworks'
@@ -14,6 +16,15 @@ export const Sidebar = () => {
       <SocialNetworks />
       <InformationContainer />
       <Link to="../../public/Edu-Dev-PT.pdf" target="_blank" className="btn" download>Download currículo</Link>
+
+      <footer>
+          Projeto todo desenvolvido em
+        <div className="icons">
+         <div id="javascript"><SiJavascript /></div>
+         <div id="react"><SiReact /></div>
+         <div id="sass"><SiSass /></div>
+        </div>
+          </footer>
     </aside>
   )
 }

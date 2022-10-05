@@ -32,7 +32,7 @@ export const Projects = () => {
   ]
 
   return(
-    <section>
+    <section id="projects-grid">
       <h2 id="subtitle">Projetos</h2>
       <p>Aqui está alguns de meus projetos</p>
       <div className="projects-container">

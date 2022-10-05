@@ -12,6 +12,7 @@
   position: relative
   padding: 3rem 0
   min-width: 21rem
+  min-height: 55rem
 
   img
     max-width: 70%
@@ -30,3 +31,26 @@
   .btn
     @include mixins.btn
     color: black
+
+  footer
+    bottom: 0
+    color: #fff
+    font-size: 1.5rem
+    position: absolute
+
+    .icons
+      display: flex
+      align-items: center
+      justify-content: center
+      gap: 1rem
+      margin: .5rem 0
+
+      #javascript
+        svg
+          color: #f0db4f
+      #react
+        svg
+          color: #61dbfb
+      #sass
+        svg
+          color: #cd6799
