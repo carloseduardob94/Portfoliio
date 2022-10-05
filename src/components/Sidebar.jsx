@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom'
 
 import {SiJavascript, SiReact, SiSass } from 'react-icons/si'
 
+import Curriculo from '../../public/Edu-Dev-PT.pdf'
+
 import '../styles/components/sidebar.sass'
 
 import { SocialNetworks } from './SocialNetworks'
@@ -15,7 +17,7 @@ export const Sidebar = () => {
       <p className="title" >Desenvolvedor Front-end</p>
       <SocialNetworks />
       <InformationContainer />
-      <Link to="../../public/Edu-Dev-PT.pdf" target="_blank" className="btn" download>Download currículo</Link>
+      <Link to={Curriculo} target="_blank" className="btn" download>Download currículo</Link>
 
       <footer>
           Projeto todo desenvolvido em
