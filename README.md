@@ -1,6 +1,7 @@
 <h1 align="center"> Carlos Eduardo - Portfolio </h1>
 <p align="center">Portfolio feito em React.JS - Javascript - Sass </p>
 
+<h1 align="center"><a href="https://eduardo-portfoliio.vercel.app/" target="blank" >Deploy 🌍</a></h2>
 
 <div align="center">
 <img src="https://user-images.githubusercontent.com/72894980/194124144-a522566b-f170-496e-8f02-059e55e0a1ff.gif" />
@@ -14,6 +15,7 @@
 src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="60" height="60"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" width="60" height="60" />          
 </p>
+
 
 ## Contato
 
