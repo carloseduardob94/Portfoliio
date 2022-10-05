@@ -13,6 +13,7 @@ import MoviesLib from '../img/MoviesLib.png'
 import RPG from '../img/RPG.gif'
 import Gallery from '../img/Gallery.gif'
 import Urna from '../img/Urna.gif'
+import Multiform from '../img/Multiform.gif'
 
 import { ProjectCard } from './ProjectCard'
 
@@ -76,7 +77,7 @@ export const Projects = () => {
           url="https://github.com/carloseduardob94/urna-digital"
         />
         <ProjectCard 
-          img={Costs}
+          img={Multiform}
           title="Multi Formulário"
           icons={icons.map((icon) => (
             <div key={icon.id}>{icon.typescript}{icon.react}</div>
