@@ -1,4 +1,5 @@
 import Avatar from '../img/Photo_1.png'
+import { Link } from 'react-router-dom'
 
 import '../styles/components/sidebar.sass'
 
@@ -12,7 +13,7 @@ export const Sidebar = () => {
       <p className="title" >Desenvolvedor Front-end</p>
       <SocialNetworks />
       <InformationContainer />
-      <a href="" className="btn">Download currículo</a>
+      <Link to="../../public/Edu-Dev-PT.pdf" target="_blank" className="btn" download>Download currículo</Link>
     </aside>
   )
 }
