@@ -1,0 +1,38 @@
+@use '../variables'
+@use '../mixins'
+
+.project-card
+  padding: .8rem
+  background-color: variables.$bg-color-secondary
+  border-radius: variables.$card-border-radius
+  text-align: center
+  width: 32rem
+  height: 30.5rem
+
+  h2
+    background: variables.$gradient
+    -webkit-background-clip: text
+    -webkit-text-fill-color: transparent
+    margin: 1rem
+    border-bottom: 1px solid #fff
+    font-size: 2rem
+
+  h3
+    color: variables.$text-color
+    margin-bottom: 1rem
+
+  div
+    @include mixins.center
+    margin-bottom: 1rem
+    gap: .5rem
+
+    svg
+      font-size: 2.3rem
+      color: orange
+
+  img
+    max-width: 30rem
+    max-height: 15.3rem
+
+  a
+    @include mixins.btn

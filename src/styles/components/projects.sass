@@ -1,0 +1,27 @@
+@use '../variables'
+@use '../mixins'
+
+section
+
+  #subtitle
+    color: variables.$text-color
+    font-size: 2.2rem
+    margin-bottom: 1.3rem
+    @include mixins.center
+    justify-content: start
+    gap: 1rem
+
+    &:after
+      @include mixins.gradient-border
+      width: 20rem
+
+  p
+    color: variables.$text-color-secondary
+    margin-bottom: 1rem
+    line-height: 1.4rem
+
+  .projects-container
+    display: flex
+    gap: 2rem
+    @include mixins.center
+    flex-wrap: wrap
