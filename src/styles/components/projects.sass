@@ -2,6 +2,7 @@
 @use '../mixins'
 
 section
+  width: 100%
 
   #subtitle
     color: variables.$text-color
@@ -13,7 +14,6 @@ section
 
     &:after
       @include mixins.gradient-border
-      width: 20rem
 
   p
     color: variables.$text-color-secondary
