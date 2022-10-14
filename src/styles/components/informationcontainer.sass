@@ -15,10 +15,10 @@
     @include mixins.center
     justify-content: start
     gap: 1rem
-    padding-bottom: .8rem
     margin-bottom: .8rem
     border-bottom: 1px solid #08ade4
     width: 100%
+    overflow: hidden
 
     h3
       color: variables.$text-color-secondary
@@ -29,13 +29,13 @@
       color: variables.$text-color
       font-weight: bold
       font-size: 1rem
-      overflow: hidden
+      text-align: center
 
     svg
       background-color: variables.$bg-color
       padding: .4rem
-      width: 2rem
-      height: 2rem
+      min-width: 2rem
+      min-height: 2rem
       border-radius: variables.$card-border-radius
 
     #phone-icon
