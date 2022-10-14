@@ -3,8 +3,6 @@ import { Link } from 'react-router-dom'
 
 import {SiJavascript, SiReact, SiSass } from 'react-icons/si'
 
-import Curriculo from '../../public/Edu-Dev-PT.pdf'
-
 import '../styles/components/sidebar.sass'
 
 import Curriculo from '../../public/Edu-Dev-PT.pdf'

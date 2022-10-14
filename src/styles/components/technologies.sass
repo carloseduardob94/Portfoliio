@@ -8,13 +8,16 @@
     display: flex
     flex-wrap: wrap
     gap: 1.5rem
+    justify-content: center
+    align-items: center
 
     .technology-card
       @include mixins.center
       gap: 1rem
       padding: 1rem
       border: 1px solid #333
-      width: 45%
+      width: 100%
+      max-width: 25rem
       border-radius: variables.$card-border-radius
       display: flex
       align-items: center
