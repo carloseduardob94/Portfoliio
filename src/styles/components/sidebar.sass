@@ -3,8 +3,8 @@
 
 #sidebar
   background-color: variables.$bg-color
-  flex: 1 1 0
   border-radius: variables.$container-border-radius
+  flex: 1 1 0
   display: flex
   flex-direction: column
   align-items: center
@@ -12,6 +12,9 @@
   position: relative
   padding: 3rem 0
   min-height: 55rem
+  @media (max-width: 426px)
+    flex: 2 1 0
+    min-width: 20.6rem
 
   img
     max-width: 70%
