@@ -14,7 +14,9 @@ export const ProjectCard = ({
       <h2>{title}</h2>
       <h3>Tecnologias:</h3>
       <div>{icons}</div>
-      <a target="_blank" href={url}>Repositório do Projeto</a>
+      <div>
+        <a target="_blank" href={url}>Repositório do Projeto</a>
+      </div>
     </div>
   )
 }
