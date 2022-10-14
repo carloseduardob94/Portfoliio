@@ -2,12 +2,17 @@
 @use '../mixins'
 
 .project-card
-  padding-top: 1.2rem
+  padding: .8rem
   background-color: variables.$bg-color-secondary
   border-radius: variables.$card-border-radius
   text-align: center
-  height: 32.5rem
+  max-height: 31.5rem
+  width: 31.5rem
   height: 100%
+  transition: all .3s ease-in-out
+
+  &:hover
+    transform: scale(1.1)
 
   h2
     background: variables.$gradient
@@ -33,6 +38,7 @@
   img
     max-width: 30rem
     width: 100%
+    max-height: 244.66px
 
   a
     @include mixins.btn
