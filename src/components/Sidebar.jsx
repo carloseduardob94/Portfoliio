@@ -7,6 +7,8 @@ import Curriculo from '../../public/Edu-Dev-PT.pdf'
 
 import '../styles/components/sidebar.sass'
 
+import Curriculo from '../../public/Edu-Dev-PT.pdf'
+
 import { SocialNetworks } from './SocialNetworks'
 import { InformationContainer } from './InformationContainer'
 
