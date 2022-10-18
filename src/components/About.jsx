@@ -6,12 +6,7 @@ export const About = () => {
       <h2>Sobre</h2>
       <div>
         <p>
-          Oi, me chamo Eduardo, amante de tecnologia, jogos e esporte!
-          Atualmente tenho como objetivo iniciar minha carreira em tecnologia a
-          partir do desenvolvimento web, que seria uma ótima oportunidade para
-          entrar no mercado de trabalho e através desse novo desafio me
-          desenvolver profissionalmente e contribuir ativamente para o
-          desenvolvimento da empresa. Algumas de minhas soft skill são:
+        Oi, me chamo Eduardo, amante de tecnologia, jogos e esporte! A cada dia que passa busco melhorar minhas habilidades em desenvolvimento web, tenho muita sede de entrar no mercado de trabalho para provar e mostrar tudo que sei e venho aprendendo ao longo desse tempo. Com muito foco e determinação, sei onde quero chegar e aqui é só o começo. Tenho uma humilde ambição de melhorar a vida das pessoas através da tecnologia. Algumas de minhas soft skill são:
         </p>
         <div id="div-2">
           <div>
