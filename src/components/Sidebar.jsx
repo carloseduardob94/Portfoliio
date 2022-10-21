@@ -5,7 +5,7 @@ import {SiJavascript, SiReact, SiSass } from 'react-icons/si'
 
 import '../styles/components/sidebar.sass'
 
-import Curriculo from '../../public/Edu-Dev-PT.pdf'
+import Curriculo from '../../public/Edu-Dev.pdf'
 
 import { SocialNetworks } from './SocialNetworks'
 import { InformationContainer } from './InformationContainer'
