@@ -6,25 +6,13 @@ export const About = () => {
       <h2>Sobre</h2>
       <div>
         <p>
-        Oi, me chamo Eduardo, amante de tecnologia, jogos e esporte! A cada dia que passa busco melhorar minhas habilidades em desenvolvimento web, tenho muita sede de entrar no mercado de trabalho para provar e mostrar tudo que sei e venho aprendendo ao longo desse tempo. Com muito foco e determinação, sei onde quero chegar e aqui é só o começo. Tenho uma humilde ambição de melhorar a vida das pessoas através da tecnologia. Algumas de minhas soft skill são:
+        1+ Ano em atuação em desenvolvimento de sites, especialista nas stacks: React.JS | Javascript -
+Typescript | Node.JS | SQL. Capacidade de solucionar problemas, valorizo software de alta
+qualidade, discussões desafiadoras que resultam em excelência técnica e habilidade. Tenho como
+objetivo me desenvolver e colaborar ativamente para o desenvolvimento da empresa.
+Tenho me esforçado ultimamente por uma posição no mercado de T.I. Estou interessado e aberto
+às posições de desenvolvedor front-end e/ou back-end.
         </p>
-        <div id="div-2">
-          <div>
-            <p>
-              <br /> • Esforçado
-              <br /> • Carismático
-              <br /> • Atencioso
-              <br /> • Curioso
-            </p>
-          </div>
-          <div>
-            <p>
-              <br /> • Boa comunicação
-              <br /> • Aprendizado Rápido
-              <br /> • Gosto de trabalhar em equipe
-            </p>
-          </div>
-        </div>
       </div>
     </section>
   )

@@ -14,7 +14,7 @@ export const Sidebar = () => {
   return (
     <aside id="sidebar" >
       <img src={Avatar} alt="Carlos Eduardo" />
-      <p className="title" >Desenvolvedor Front-end</p>
+      <p className="title" >Desenvolvedor Full Stack</p>
       <SocialNetworks />
       <InformationContainer />
       <Link to={Curriculo} target="_blank" className="btn" download>Download currículo</Link>
